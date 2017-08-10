@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PioneerTech.WebApp", "Pione
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PioneerTech.WebApp.Tests", "PioneerTech.WebApp.Tests\PioneerTech.WebApp.Tests.csproj", "{C0034DC2-D534-413B-8E89-2FC0EBEFD546}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeDataAccess.DAL", "EmployeeDataAccess\EmployeeDataAccess.DAL.csproj", "{3DC272EE-0AA8-463A-9B31-B24B0C93B411}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PioneerTestConsultancySys.Model", "Model\PioneerTestConsultancySys.Model.csproj", "{A98E0BA9-0D2A-4C8E-B843-F931A70AE443}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{C0034DC2-D534-413B-8E89-2FC0EBEFD546}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0034DC2-D534-413B-8E89-2FC0EBEFD546}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0034DC2-D534-413B-8E89-2FC0EBEFD546}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DC272EE-0AA8-463A-9B31-B24B0C93B411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DC272EE-0AA8-463A-9B31-B24B0C93B411}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DC272EE-0AA8-463A-9B31-B24B0C93B411}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DC272EE-0AA8-463A-9B31-B24B0C93B411}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A98E0BA9-0D2A-4C8E-B843-F931A70AE443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A98E0BA9-0D2A-4C8E-B843-F931A70AE443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A98E0BA9-0D2A-4C8E-B843-F931A70AE443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A98E0BA9-0D2A-4C8E-B843-F931A70AE443}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
