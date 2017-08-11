@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PioneerTechMasterPage.master.cs" Inherits="PioneerTech.WebApp.UI.PioneerTechMasterPage" %>
+﻿    <%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PioneerTechMasterPage.master.cs" Inherits="PioneerTech.WebApp.UI.PioneerTechMasterPage" %>
 
 <!DOCTYPE html>
 
@@ -12,8 +12,22 @@
     <form id="MainMasterPage" runat="server">
 
 
-        <div id="Header" class="Header"></div>
-        <div id="Navigation" class="Navigation"></div>
+        <div id="Header" class="Header">
+            <h1> Pioneer Technology</h1>
+        </div>
+        <div id="Navigation" class="Navigation">
+       <asp:Menu ID="Menu1" runat="server" Orientation="Vertical" CssClass="menu">
+           <Items>
+               <asp:MenuItem Text="Home" NavigateUrl="Home.aspx" />
+               <asp:MenuItem Text="EducationDetails" NavigateUrl="EducationDetails.aspx" />
+               <asp:MenuItem Text="EmployeeDetails" NavigateUrl="EmployeeDetails.aspx" />
+               <asp:MenuItem Text="TechnicalDetails" NavigateUrl="TechnicalDetails.aspx" />
+               <asp:MenuItem Text="ProjectDetails" NavigateUrl="ProjectDetails.aspx" />
+               <asp:MenuItem Text="CompanyDetails" NavigateUrl="CompanyDetails.aspx" />
+
+           </Items>
+       </asp:Menu>
+            </div>
         <div id="Footer" class="Footer"></div>
         <div id="Content" class="Content">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
