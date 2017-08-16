@@ -23,11 +23,11 @@
         </tr>        
     <tr>
             <td>    
-            <asp:Button ID="SaveButton" runat="server" OnClick="SaveButton_Click" Text="Save" />
-            <asp:Button ID="ClearButton" runat="server" OnClick="ClearButton_Click" Text="Clear" />
-                <asp:Button ID="EditButton" runat="server" OnClick="EditButton_Click" Text="Edit" />
+            <asp:Button ID="SaveButton" runat="server" OnClick="SaveButton_Click" Text="Save" /></td>
+            <td><asp:Button ID="ClearButton" runat="server" OnClick="ClearButton_Click" Text="Clear" /></td>
+               <td> <asp:Button ID="EditButton" runat="server" OnClick="EditButton_Click" Text="Edit" /></td>
            
-            </td>
+            
           
             </tr>
 

@@ -64,6 +64,10 @@ namespace PioneerTech.WebApp.UI
 
         protected void ClearButton_Click(object sender, EventArgs e)
         {
+            Employer_NameTextBox.Text = string.Empty;
+            Contact_NumberTextBox.Text= string.Empty;
+            LocationTextBox.Text = string.Empty;
+            WebsiteTextBox.Text= string.Empty;
 
         }
 

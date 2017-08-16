@@ -14,10 +14,27 @@ namespace PioneerTech.WebApp.UI
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            UnobtrusiveValidationMode = UnobtrusiveValidationMode.None;
+        }
+
+        
+
+        protected void HomeCountryTextBox_TextChanged(object sender, EventArgs e)
+        {
 
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
+        protected void ClearButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void EditButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void SaveButton_Click(object sender, EventArgs e)
         {
             try
             {
@@ -43,7 +60,7 @@ namespace PioneerTech.WebApp.UI
             }
         }
 
-        protected void HomeCountryTextBox_TextChanged(object sender, EventArgs e)
+        protected void First_NameTextBox_TextChanged(object sender, EventArgs e)
         {
 
         }
