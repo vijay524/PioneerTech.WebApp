@@ -1,19 +1,21 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/UI/PioneerTechMasterPage.Master" AutoEventWireup="true" CodeBehind="EmployeeDetails.aspx.cs" Inherits="PioneerTech.WebApp.UI.EmployeeDetails" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <table id="EmployeeDetail">
-        <td>Employee Details</td>
+    <table id="Employee_Details">
+        <tr id="Employee Details">
+            <td style="width: 51px">Employee Details</td>
+            <td>
 
         
-        <tr id ="FirstNameRow">
-            <td style="width: 138px">FirstName</td>
+        <tr id ="First_NameRow">
+            <td style="width: 138px">First_Name</td>
             <td>
-                <asp:TextBox ID="FirstNameTextBox" runat="server"></asp:TextBox>
+                <asp:TextBox ID="First_NameTextBox" runat="server"></asp:TextBox>
             </td>
         </tr>
-        <tr id="LastNameRow">
-            <td style="width: 138px">LastName</td>
+        <tr id="Last_NameRow">
+            <td style="width: 138px">Last_Name</td>
             <td>
-                <asp:TextBox ID="LastNameTextBox" runat="server"></asp:TextBox>
+                <asp:TextBox ID="Last_NameTextBox" runat="server"></asp:TextBox>
             </td>
         </tr>
         <tr id="EmailRow">
@@ -22,10 +24,10 @@
                 <asp:TextBox ID="EmailTextBox" runat="server"></asp:TextBox>
             </td>
         </tr>
-        <tr id="MobileNumberRow">
-            <td style="width: 138px">MobileNumber</td>
+        <tr id="Mobile_NumberRow">
+            <td style="width: 138px">Mobile_Number</td>
             <td>
-                <asp:TextBox ID="MobileNumberTextBox" runat="server"></asp:TextBox>
+                <asp:TextBox ID="Mobile_NumberTextBox" runat="server"></asp:TextBox>
             </td>
         </tr>
         <tr id="AlternateContactNumberRow">
@@ -47,15 +49,15 @@
             </td>
         </tr>
         <tr id="CurrentCountryRow">
-            <td style="width: 138px">CurrentCountry</td>
+            <td style="width: 138px">Current_Country</td>
             <td>
-                <asp:TextBox ID="CurrentCountryTextBox" runat="server"></asp:TextBox>
+                <asp:TextBox ID="Current_CountryTextBox" runat="server"></asp:TextBox>
             </td>
         </tr>
         <tr id="HomeCountryRow">
-            <td style="width: 138px">HomeCountry</td>
+            <td style="width: 138px">Home_Country</td>
             <td>
-                <asp:TextBox ID="HomeCountryTextBox" runat="server"></asp:TextBox>
+                <asp:TextBox ID="Home_CountryTextBox" runat="server"></asp:TextBox>
             </td>
         </tr>
         <tr id="ZipCodeRow">

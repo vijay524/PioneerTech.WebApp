@@ -14,6 +14,6 @@ namespace PioneerTestConsultancySys.Model
         public string Location { get; set; }
         public string Roles { get; set; }
         public string Databases { get; set; }
-
+        public int ProjectID { get; set; }
     }
 }

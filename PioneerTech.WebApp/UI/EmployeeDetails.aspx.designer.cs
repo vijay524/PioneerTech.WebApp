@@ -13,22 +13,22 @@ namespace PioneerTech.WebApp.UI {
     public partial class EmployeeDetails {
         
         /// <summary>
-        /// FirstNameTextBox control.
+        /// First_NameTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox FirstNameTextBox;
+        protected global::System.Web.UI.WebControls.TextBox First_NameTextBox;
         
         /// <summary>
-        /// LastNameTextBox control.
+        /// Last_NameTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox LastNameTextBox;
+        protected global::System.Web.UI.WebControls.TextBox Last_NameTextBox;
         
         /// <summary>
         /// EmailTextBox control.
@@ -40,13 +40,13 @@ namespace PioneerTech.WebApp.UI {
         protected global::System.Web.UI.WebControls.TextBox EmailTextBox;
         
         /// <summary>
-        /// MobileNumberTextBox control.
+        /// Mobile_NumberTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox MobileNumberTextBox;
+        protected global::System.Web.UI.WebControls.TextBox Mobile_NumberTextBox;
         
         /// <summary>
         /// AlternateMobileNumberTextBox control.
@@ -76,22 +76,22 @@ namespace PioneerTech.WebApp.UI {
         protected global::System.Web.UI.WebControls.TextBox Address2TextBox;
         
         /// <summary>
-        /// CurrentCountryTextBox control.
+        /// Current_CountryTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox CurrentCountryTextBox;
+        protected global::System.Web.UI.WebControls.TextBox Current_CountryTextBox;
         
         /// <summary>
-        /// HomeCountryTextBox control.
+        /// Home_CountryTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox HomeCountryTextBox;
+        protected global::System.Web.UI.WebControls.TextBox Home_CountryTextBox;
         
         /// <summary>
         /// ZipCodeTextBox control.

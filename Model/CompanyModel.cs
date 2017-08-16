@@ -12,5 +12,6 @@ namespace PioneerTestConsultancySys.Model
         public long Contact_Number { get; set; }
         public string Location { get; set; }
         public string Website { get; set; }
+        public int EmployeeID { get; set; }
     } 
 }
