@@ -13,6 +13,15 @@ namespace PioneerTech.WebApp.UI {
     public partial class EmployeeDetails {
         
         /// <summary>
+        /// EmployeeIDDropDownList control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList EmployeeIDDropDownList;
+        
+        /// <summary>
         /// First_NameTextBox control.
         /// </summary>
         /// <remarks>
@@ -83,6 +92,15 @@ namespace PioneerTech.WebApp.UI {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox AlternateMobileNumberTextBox;
+        
+        /// <summary>
+        /// AlternateMobileNumberTextBoxRegularExpressionValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator AlternateMobileNumberTextBoxRegularExpressionValidator;
         
         /// <summary>
         /// Address1TextBox control.

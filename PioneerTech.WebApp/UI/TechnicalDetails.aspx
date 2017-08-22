@@ -1,6 +1,11 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/UI/PioneerTechMasterPage.Master" AutoEventWireup="true" CodeBehind="TechnicalDetails.aspx.cs" Inherits="PioneerTech.WebApp.UI.TechnicalDetails" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
      <table id="Technical Details">
+         <tr id ="EmployeeIDRow">
+            <td style="width: 138px">EmployeeID</td>
+            <td>
+                <asp:DropDownList ID="EmployeeIDDropDownList" runat="server" AutoPostBack="True" OnSelectedIndexChanged="EmployeeIDDropDownList_SelectedIndexChanged1"></asp:DropDownList>
+            </td>
         
         <tr id ="Programming_LanguagesRow">
             <td style="width: 138px">Programming Languages</td>
@@ -32,4 +37,5 @@
             
           
             </tr>
+         </table>
 </asp:Content>

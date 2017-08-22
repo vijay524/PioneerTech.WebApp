@@ -13,6 +13,15 @@ namespace PioneerTech.WebApp.UI {
     public partial class TechnicalDetails {
         
         /// <summary>
+        /// EmployeeIDDropDownList control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList EmployeeIDDropDownList;
+        
+        /// <summary>
         /// Programming_LanguagesTextBox control.
         /// </summary>
         /// <remarks>

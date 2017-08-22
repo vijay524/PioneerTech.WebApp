@@ -44,11 +44,16 @@ namespace PioneerTech.WebApp.UI
                     Website = WebsiteTextBox.Text,
                 };
                 CompanyAccess companydata = new CompanyAccess();
-                companydata.SaveCompany1(companymodel);
+                string SaveComp= companydata.SaveCompany1(companymodel);
+                if (SaveComp.Equals("Success"))
+
+                {
+                    Response.Write("<script>alert('Details have been saved successfully');</script>");
+                }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Please enter the values: " + ex.Message);
+                Response.Write("<script>alert(('Please enter the values: '" + ex.Message+");/script>");
             }
         }
 
@@ -85,11 +90,16 @@ namespace PioneerTech.WebApp.UI
                     Website = WebsiteTextBox.Text,
                 };
                 CompanyAccess access = new CompanyAccess();
-                access.EditCompany(model);
+               string EditComp= access.EditCompany(model);
+                if (EditComp.Equals("Success"))
+
+                {
+                    Response.Write("<script>alert('Details have been Updated successfully');</script>");
+                }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Please enter the values: " + ex.Message);
+                Response.Write("<script>alert(('Please enter the values: '" + ex.Message+");</script>");
             }
         }
 

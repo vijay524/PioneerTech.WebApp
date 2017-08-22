@@ -12,5 +12,6 @@ namespace PioneerTestConsultancySys.Model
         public string Databases { get; set; }
         public string ORM_Technologies { get; set; }
         public string UI { get; set; }
+        public int EmployeeID { get; set; }
     }
 }

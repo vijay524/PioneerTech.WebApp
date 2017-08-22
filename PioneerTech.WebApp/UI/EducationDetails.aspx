@@ -1,7 +1,13 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/UI/PioneerTechMasterPage.Master" AutoEventWireup="true" CodeBehind="EducationDetails.aspx.cs" Inherits="PioneerTech.WebApp.UI.EducationDetails" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-<table id="Education Details" style="width: 107px">
+<table id="Education Details" style="width: 469px">
+    <tr id ="EmployeeIDRow">
+        <td style="width: 138px">EmployeeID</td>
+            <td>
+                <asp:DropDownList ID="EmployeeIDDropDownList" runat="server" AutoPostBack="True" OnSelectedIndexChanged="EmployeeIDDropDownList_SelectedIndexChanged"></asp:DropDownList>
+            </td>
+    </tr>
     
   <tr id ="CourseTypeRow">
             <td style="width: 138px">CourseType</td>
@@ -13,6 +19,7 @@
             <td style="width: 138px">YearOfPass</td>
             <td>
                 <asp:TextBox ID="YearOfPassTextBox" runat="server"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="YearOfPassRequiredFieldValidator" runat="server" ErrorMessage="Year of pass is required" ControlToValidate="YearOfPassTextBox"></asp:RequiredFieldValidator>
             </td>
         </tr>
         <tr id="CourseSpecialisationRow">

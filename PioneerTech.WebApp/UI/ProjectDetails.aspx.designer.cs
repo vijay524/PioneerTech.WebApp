@@ -13,13 +13,13 @@ namespace PioneerTech.WebApp.UI {
     public partial class ProjectDetails {
         
         /// <summary>
-        /// EmployeeIDTextBox control.
+        /// EmployeeIDDropDownList control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox EmployeeIDTextBox;
+        protected global::System.Web.UI.WebControls.DropDownList EmployeeIDDropDownList;
         
         /// <summary>
         /// Project_NameTextBox control.
@@ -58,13 +58,13 @@ namespace PioneerTech.WebApp.UI {
         protected global::System.Web.UI.WebControls.TextBox RolesTextBox;
         
         /// <summary>
-        /// AddCompanyButton control.
+        /// AddProjectButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button AddCompanyButton;
+        protected global::System.Web.UI.WebControls.Button AddProjectButton;
         
         /// <summary>
         /// ClearButton control.
